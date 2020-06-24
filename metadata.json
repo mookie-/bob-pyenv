@@ -1,0 +1,34 @@
+{
+  "name": "kimbob-pyenv",
+  "version": "0.0.1",
+  "author": "Kim Jahn",
+  "summary": "Module to install pyenv and pyenv pythons",
+  "license": "Beerware",
+  "source": "https://github.com/mookie-/kimbob-pyenv",
+  "project_page": "https://github.com/mookie-/kimbob-pyenv",
+  "issues_url": "https://github.com/mookie-/kimbob-pyenv/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4 < 7"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "14.04",
+        "16.04",
+        "18.04",
+        "20.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 5.0.0 < 7.0.0"
+    }
+  ],
+  "description": "Module to install pyenv and pyenv pythons"
+}

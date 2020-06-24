@@ -1,0 +1,9 @@
+#
+# Managed by puppet - DO NOT EDIT
+#
+# This file initializes pyenv
+#
+if ! echo $PATH | grep -q pyenv; then
+  export PATH="${HOME}/.pyenv/bin:$PATH"
+fi
+eval "$(pyenv init -)"
